@@ -1,0 +1,24 @@
+---
+description: Programming Convention
+globs: *.py
+alwaysApply: false
+---
+# Programming Convention
+
+*** Note. 필요하다면 현재 구조에 대해서 수정이 가능하지만, 현재 디렉토리 구조를 최대한 유지 할 것. 현재 코드베이스를 스캔해서 관련된 코드가 있는지 우선 찾아볼 것. ***
+
+## Code Convention
+- 3~5년차 개발자를 염두에 두고 항상 한글로 작성된 주석을 포함하여 코드를 작성 할 것
+    - 3~5년차 프로그래머라면 누구나 이해 할 수 있는 Clean Code & Clean Architecture를 지향 할 것
+- DRY, KISS, YAGNI, SRP, OCP, LSP, ISP, DIP 관점에서 가장 적절한 접근법을 채택 할 것
+    - 모든 Script의 가장 최상단에는 다음의 항목을 포함한 주석을 작성 할 것 
+        - 설계 방향 및 원칙: 핵심 책임, 설계 원칙, 기술적 고려사항, 사용 시 고려사항
+- Google Style의 코드 작성 가이드라인을 준수 할 것
+- 모든 Class와 Method에는 Docstring을 포함 할 것
+- 항상 더 나은 Design Pattern에 대해서 고민 할 것
+
+
+## Task Guide
+- 작업에 관련된 코드 전반을 확인하여 문제를 항상 명확하게 할 것
+- 항상 관련된 코드를 꼼꼼히 검토 할 것
+- 최소한의 수정으로 해결 하는 것을 우선시 할 것

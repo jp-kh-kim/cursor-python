@@ -1,0 +1,24 @@
+---
+description: dev stacks
+globs: *.*
+alwaysApply: false
+---
+## 1. 프로젝트 개요
+이 프로젝트는 주식 데이터를 yfinance를 통해 수집하여 Streamlit을 통해 기술적 지표와 함께 보여주는 것을 목표로 합니다.
+
+
+## 2. 기술 스택
+- **Core**: Python (3.12)
+- **Package Manager**: Poetry
+- **Serving**: Streamlit
+
+## 3. 핵심 라이브러리 (pyproject.toml)
+- pandas
+- yfinance
+- hicharts
+- plotly
+
+## 4. 개발 방식
+- Test-driven development로 진행
+    - 작업 순서 ::: 기능 설계 -> `tests/<function>/<function.py>`에 테스트 코드 작성 -> 기능 구현 -> 테스트
+    - 반드시 상기된 절차를 준수 할 것
