@@ -1,7 +1,7 @@
 ---
 description: Programming Convention
 globs: *.py
-alwaysApply: false
+alwaysApply: true
 ---
 # Programming Convention
 

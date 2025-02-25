@@ -1,7 +1,7 @@
 ---
 description: dev stacks
 globs: *.*
-alwaysApply: false
+alwaysApply: true
 ---
 ## 1. 프로젝트 개요
 이 프로젝트는 주식 데이터를 yfinance를 통해 수집하여 Streamlit을 통해 기술적 지표와 함께 보여주는 것을 목표로 합니다.
