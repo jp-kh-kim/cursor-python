@@ -1,12 +1,23 @@
 [project]
+
 name = "stock-monitor"
+
 version = "0.1.0"
+
 description = ""
+
 authors = [
     {name = "jp-kh-kim",email = "khkim@braincommerce.com"}
 ]
+
+packages = [
+    { include = "be", from = "src"}
+]
+
 readme = "README.md"
+
 requires-python = ">=3.12, <4"
+
 dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "streamlit (>=1.42.2,<2.0.0)",
