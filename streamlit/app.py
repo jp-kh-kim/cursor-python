@@ -376,38 +376,41 @@ def create_stock_chart(
         )
 
     # 볼린저 밴드 추가
-    if show_bollinger and "Upper_Band" in data.columns and "Lower_Band" in data.columns:
+    if show_bollinger and "BB_Upper" in data.columns and "BB_Lower" in data.columns:
+        # 상단 밴드
         fig.add_trace(
             go.Scatter(
                 x=data.index,
-                y=data["Upper_Band"],
+                y=data["BB_Upper"],
                 name="상단 밴드",
-                line=dict(color="rgba(76, 175, 80, 0.5)", width=1),
+                line=dict(color="rgba(76, 175, 80, 0.3)", width=1),
                 fill=None,
             ),
             row=1,
             col=1,
         )
 
+        # 중간 밴드
         fig.add_trace(
             go.Scatter(
                 x=data.index,
-                y=data["Middle_Band"],
+                y=data["BB_Middle"],
                 name="중간 밴드",
                 line=dict(color="rgba(76, 175, 80, 1)", width=1),
-                fill=None,
             ),
             row=1,
             col=1,
         )
 
+        # 하단 밴드 (영역 채우기 포함)
         fig.add_trace(
             go.Scatter(
                 x=data.index,
-                y=data["Lower_Band"],
+                y=data["BB_Lower"],
                 name="하단 밴드",
-                line=dict(color="rgba(76, 175, 80, 0.5)", width=1),
-                fill="tonexty",
+                line=dict(color="rgba(76, 175, 80, 0.3)", width=1),
+                fill="tonexty",  # 이전 trace와의 사이를 채움
+                fillcolor="rgba(76, 175, 80, 0.1)",  # 채우기 색상 설정
             ),
             row=1,
             col=1,
@@ -430,7 +433,7 @@ def create_stock_chart(
     )
 
     # MACD 차트 추가
-    if show_macd and "MACD" in data.columns and "Signal" in data.columns:
+    if show_macd and "MACD" in data.columns and "MACD_Signal" in data.columns:
         current_row = 3
 
         # MACD 라인
@@ -449,7 +452,7 @@ def create_stock_chart(
         fig.add_trace(
             go.Scatter(
                 x=data.index,
-                y=data["Signal"],
+                y=data["MACD_Signal"],
                 name="Signal",
                 line=dict(color="#FF5722", width=1),
             ),
@@ -458,12 +461,12 @@ def create_stock_chart(
         )
 
         # Histogram
-        colors = ["red" if val >= 0 else "blue" for val in data["Histogram"]]
+        colors = ["red" if val >= 0 else "blue" for val in data["MACD_Histogram"]]
 
         fig.add_trace(
             go.Bar(
                 x=data.index,
-                y=data["Histogram"],
+                y=data["MACD_Histogram"],
                 name="Histogram",
                 marker=dict(color=colors, opacity=0.5),
             ),
