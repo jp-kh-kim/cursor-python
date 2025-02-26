@@ -1,0 +1,45 @@
+# 버전 관리 시스템
+.git
+.gitignore
+.github
+
+# 가상 환경
+.venv
+venv
+env
+ENV
+
+# 캐시 파일
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+.coverage
+htmlcov
+.ruff_cache
+.mypy_cache
+
+# 로그 파일
+*.log
+
+# 개발 환경 설정
+.vscode
+.idea
+.history
+.cursor
+
+# 빌드 결과물
+dist
+build
+*.egg-info
+
+# 기타 불필요한 파일
+.DS_Store
+*.swp
+*.swo
+*~
+
+# 도커 관련 파일
+Dockerfile
+.dockerignore
+docker-compose.yml 

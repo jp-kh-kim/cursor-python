@@ -1,0 +1,406 @@
+[
+    {
+        "Symbol": "AAPL",
+        "Name": "Apple Inc."
+    },
+    {
+        "Symbol": "MSFT",
+        "Name": "Microsoft Corporation"
+    },
+    {
+        "Symbol": "AMZN",
+        "Name": "Amazon.com, Inc."
+    },
+    {
+        "Symbol": "NVDA",
+        "Name": "NVIDIA Corporation"
+    },
+    {
+        "Symbol": "GOOG",
+        "Name": "Alphabet Inc."
+    },
+    {
+        "Symbol": "GOOGL",
+        "Name": "Alphabet Inc."
+    },
+    {
+        "Symbol": "META",
+        "Name": "Meta Platforms, Inc."
+    },
+    {
+        "Symbol": "TSLA",
+        "Name": "Tesla, Inc."
+    },
+    {
+        "Symbol": "AVGO",
+        "Name": "Broadcom Inc."
+    },
+    {
+        "Symbol": "COST",
+        "Name": "Costco Wholesale Corporation"
+    },
+    {
+        "Symbol": "NFLX",
+        "Name": "Netflix, Inc."
+    },
+    {
+        "Symbol": "TMUS",
+        "Name": "T-Mobile US, Inc."
+    },
+    {
+        "Symbol": "ASML",
+        "Name": "ASML Holding N.V."
+    },
+    {
+        "Symbol": "CSCO",
+        "Name": "Cisco Systems, Inc."
+    },
+    {
+        "Symbol": "AZN",
+        "Name": "AstraZeneca PLC"
+    },
+    {
+        "Symbol": "LIN",
+        "Name": "Linde plc"
+    },
+    {
+        "Symbol": "PLTR",
+        "Name": "Palantir Technologies Inc."
+    },
+    {
+        "Symbol": "PEP",
+        "Name": "PepsiCo, Inc."
+    },
+    {
+        "Symbol": "ISRG",
+        "Name": "Intuitive Surgical, Inc."
+    },
+    {
+        "Symbol": "ADBE",
+        "Name": "Adobe Inc."
+    },
+    {
+        "Symbol": "TXN",
+        "Name": "Texas Instruments Incorporated"
+    },
+    {
+        "Symbol": "QCOM",
+        "Name": "QUALCOMM Incorporated"
+    },
+    {
+        "Symbol": "AMD",
+        "Name": "Advanced Micro Devices, Inc."
+    },
+    {
+        "Symbol": "AMGN",
+        "Name": "Amgen Inc."
+    },
+    {
+        "Symbol": "PDD",
+        "Name": "PDD Holdings Inc."
+    },
+    {
+        "Symbol": "BKNG",
+        "Name": "Booking Holdings Inc."
+    },
+    {
+        "Symbol": "INTU",
+        "Name": "Intuit Inc."
+    },
+    {
+        "Symbol": "ARM",
+        "Name": "Arm Holdings plc"
+    },
+    {
+        "Symbol": "APP",
+        "Name": "AppLovin Corporation"
+    },
+    {
+        "Symbol": "GILD",
+        "Name": "Gilead Sciences, Inc."
+    },
+    {
+        "Symbol": "CMCSA",
+        "Name": "Comcast Corporation"
+    },
+    {
+        "Symbol": "AMAT",
+        "Name": "Applied Materials, Inc."
+    },
+    {
+        "Symbol": "HON",
+        "Name": "Honeywell International Inc."
+    },
+    {
+        "Symbol": "SBUX",
+        "Name": "Starbucks Corporation"
+    },
+    {
+        "Symbol": "ADP",
+        "Name": "Automatic Data Processing, Inc."
+    },
+    {
+        "Symbol": "PANW",
+        "Name": "Palo Alto Networks, Inc."
+    },
+    {
+        "Symbol": "VRTX",
+        "Name": "Vertex Pharmaceuticals Incorporated"
+    },
+    {
+        "Symbol": "ADI",
+        "Name": "Analog Devices, Inc."
+    },
+    {
+        "Symbol": "MELI",
+        "Name": "MercadoLibre, Inc."
+    },
+    {
+        "Symbol": "LRCX",
+        "Name": "Lam Research Corporation"
+    },
+    {
+        "Symbol": "MU",
+        "Name": "Micron Technology, Inc."
+    },
+    {
+        "Symbol": "INTC",
+        "Name": "Intel Corporation"
+    },
+    {
+        "Symbol": "KLAC",
+        "Name": "KLA Corporation"
+    },
+    {
+        "Symbol": "CRWD",
+        "Name": "CrowdStrike Holdings, Inc."
+    },
+    {
+        "Symbol": "ABNB",
+        "Name": "Airbnb, Inc."
+    },
+    {
+        "Symbol": "MRVL",
+        "Name": "Marvell Technology, Inc."
+    },
+    {
+        "Symbol": "MDLZ",
+        "Name": "Mondelez International, Inc."
+    },
+    {
+        "Symbol": "CEG",
+        "Name": "Constellation Energy Corporation"
+    },
+    {
+        "Symbol": "FTNT",
+        "Name": "Fortinet, Inc."
+    },
+    {
+        "Symbol": "DASH",
+        "Name": "DoorDash, Inc."
+    },
+    {
+        "Symbol": "CTAS",
+        "Name": "Cintas Corporation"
+    },
+    {
+        "Symbol": "REGN",
+        "Name": "Regeneron Pharmaceuticals, Inc."
+    },
+    {
+        "Symbol": "MAR",
+        "Name": "Marriott International, Inc."
+    },
+    {
+        "Symbol": "ORLY",
+        "Name": "O'Reilly Automotive, Inc."
+    },
+    {
+        "Symbol": "PYPL",
+        "Name": "PayPal Holdings, Inc."
+    },
+    {
+        "Symbol": "TEAM",
+        "Name": "Atlassian Corporation"
+    },
+    {
+        "Symbol": "MSTR",
+        "Name": "MicroStrategy Incorporated"
+    },
+    {
+        "Symbol": "SNPS",
+        "Name": "Synopsys, Inc."
+    },
+    {
+        "Symbol": "WDAY",
+        "Name": "Workday, Inc."
+    },
+    {
+        "Symbol": "CDNS",
+        "Name": "Cadence Design Systems, Inc."
+    },
+    {
+        "Symbol": "ROP",
+        "Name": "Roper Technologies, Inc."
+    },
+    {
+        "Symbol": "CSX",
+        "Name": "CSX Corporation"
+    },
+    {
+        "Symbol": "ADSK",
+        "Name": "Autodesk, Inc."
+    },
+    {
+        "Symbol": "NXPI",
+        "Name": "NXP Semiconductors N.V."
+    },
+    {
+        "Symbol": "CHTR",
+        "Name": "Charter Communications, Inc."
+    },
+    {
+        "Symbol": "AEP",
+        "Name": "American Electric Power Company, Inc."
+    },
+    {
+        "Symbol": "PCAR",
+        "Name": "PACCAR Inc"
+    },
+    {
+        "Symbol": "CPRT",
+        "Name": "Copart, Inc."
+    },
+    {
+        "Symbol": "PAYX",
+        "Name": "Paychex, Inc."
+    },
+    {
+        "Symbol": "MNST",
+        "Name": "Monster Beverage Corporation"
+    },
+    {
+        "Symbol": "KDP",
+        "Name": "Keurig Dr Pepper Inc."
+    },
+    {
+        "Symbol": "FANG",
+        "Name": "Diamondback Energy, Inc."
+    },
+    {
+        "Symbol": "ROST",
+        "Name": "Ross Stores, Inc."
+    },
+    {
+        "Symbol": "LULU",
+        "Name": "Lululemon Athletica Inc."
+    },
+    {
+        "Symbol": "BKR",
+        "Name": "Baker Hughes Company"
+    },
+    {
+        "Symbol": "EXC",
+        "Name": "Exelon Corporation"
+    },
+    {
+        "Symbol": "FAST",
+        "Name": "Fastenal Company"
+    },
+    {
+        "Symbol": "VRSK",
+        "Name": "Verisk Analytics, Inc."
+    },
+    {
+        "Symbol": "CTSH",
+        "Name": "Cognizant Technology Solutions Corporation"
+    },
+    {
+        "Symbol": "GEHC",
+        "Name": "GE HealthCare Technologies Inc."
+    },
+    {
+        "Symbol": "XEL",
+        "Name": "Xcel Energy Inc."
+    },
+    {
+        "Symbol": "CCEP",
+        "Name": "Coca-Cola Europacific Partners PLC"
+    },
+    {
+        "Symbol": "DDOG",
+        "Name": "Datadog, Inc."
+    },
+    {
+        "Symbol": "ODFL",
+        "Name": "Old Dominion Freight Line, Inc."
+    },
+    {
+        "Symbol": "AXON",
+        "Name": "Axon Enterprise, Inc."
+    },
+    {
+        "Symbol": "IDXX",
+        "Name": "IDEXX Laboratories, Inc."
+    },
+    {
+        "Symbol": "KHC",
+        "Name": "The Kraft Heinz Company"
+    },
+    {
+        "Symbol": "TTWO",
+        "Name": "Take-Two Interactive Software, Inc."
+    },
+    {
+        "Symbol": "TTD",
+        "Name": "The Trade Desk, Inc."
+    },
+    {
+        "Symbol": "DXCM",
+        "Name": "DexCom, Inc."
+    },
+    {
+        "Symbol": "EA",
+        "Name": "Electronic Arts Inc."
+    },
+    {
+        "Symbol": "MCHP",
+        "Name": "Microchip Technology Incorporated"
+    },
+    {
+        "Symbol": "CSGP",
+        "Name": "CoStar Group, Inc."
+    },
+    {
+        "Symbol": "ZS",
+        "Name": "Zscaler, Inc."
+    },
+    {
+        "Symbol": "ANSS",
+        "Name": "ANSYS, Inc."
+    },
+    {
+        "Symbol": "WBD",
+        "Name": "Warner Bros. Discovery, Inc."
+    },
+    {
+        "Symbol": "CDW",
+        "Name": "CDW Corporation"
+    },
+    {
+        "Symbol": "GFS",
+        "Name": "GlobalFoundries Inc."
+    },
+    {
+        "Symbol": "ON",
+        "Name": "ON Semiconductor Corporation"
+    },
+    {
+        "Symbol": "BIIB",
+        "Name": "Biogen Inc."
+    },
+    {
+        "Symbol": "MDB",
+        "Name": "MongoDB, Inc."
+    }
+]

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  stock-analysis-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stock-analysis-app
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    volumes:
+      # 개발 환경에서 코드 변경 시 실시간 반영을 위한 볼륨 마운트
+      # 프로덕션 환경에서는 제거하는 것이 좋습니다
+      - ./src:/app/src
+      - ./streamlit:/app/streamlit
+    environment:
+      - PYTHONUNBUFFERED=1
+      # 필요한 환경 변수가 있다면 여기에 추가
+    networks:
+      - stock-analysis-network
+
+networks:
+  stock-analysis-network:
+    driver: bridge 
